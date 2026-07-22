@@ -1,0 +1,13 @@
+#mensaje{
+ margin:auto;
+ padding:15px;
+ border-style:solid;
+ border-top-width: thin;
+ border-bottom-width: thin;
+ border-left-width:0px;
+ border-right-width:0px;
+ 
+ background:#ffe142 ;
+ border-color: red;
+ 
+}

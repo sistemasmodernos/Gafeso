@@ -1,0 +1,18 @@
+#tablaoc {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 600px;
+    text-align: left;    border-collapse: collapse; }
+
+#tablaoc th {     font-size: 13px;     font-weight: normal;     padding: 3px;     background: #EBA356;
+    border-top: 4px solid #F18929;    border-bottom: 1px solid #fff;
+    color: #200303;
+}
+
+
+#tablaoc tr:nth-child(even) { background: #ddd }
+#tablaoc tr:nth-child(odd) { background: #fff}
+#tablaoc td{padding:4px;}
+
+
+.monto{
+    text-align:right;
+    }

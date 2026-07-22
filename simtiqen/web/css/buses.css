@@ -1,0 +1,58 @@
+.ocupado{
+  background-image: url("../img/asiento_ocupado.gif");
+  background-repeat: no-repeat;
+  text-align:center;
+  color:white;
+  
+  
+}
+.ocupadoA{
+  background-image: url("../img/asiento_ocupadoA.gif");
+  background-repeat: no-repeat;
+  text-align:center;
+  color:white;
+  
+  
+}
+.ocupadoW{
+  background-image: url("../img/asiento_ocupadoW.gif");
+  background-repeat: no-repeat;
+  text-align:center;
+  color:white;
+  
+  
+}
+
+.libre{
+  background-image: url("../img/asiento_vacio.gif");
+  background-repeat: no-repeat;
+  text-align:center;
+  color:red;
+  
+  
+}
+
+.libree{
+  background-image: url("../img/ancianos.gif");
+  background-repeat: no-repeat;
+  text-align:center;
+  color:red;
+  
+}
+
+.marcado{
+  color:blue;
+  font-weight: bold;
+}
+.tablabus48 {
+	background-image: url("../img/bus48.gif");
+	background-repeat: no-repeat;
+}
+
+.adultomayor{
+  border:solid 2px lightgreen;
+}
+
+.cortesia{
+  border:solid 2px aqua;
+}

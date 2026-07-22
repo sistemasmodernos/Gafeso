@@ -1,0 +1,52 @@
+
+.numenco{
+	font-size:120%;
+	font-weight:bold;
+
+
+}
+#divdatos{
+	margin-top:15px;
+
+}
+#divtitulo p{
+	font-size:200%;
+	font-weight:bold;
+	text-align:center;
+}
+#infoviaje{
+	float:left;
+}
+
+@media print{
+    
+	#controles{
+		display:none;
+	}
+
+	#cuerpo{
+		max-width: 11in !important;
+	}
+	
+	#infoviaje {
+		font-size: 75%;
+	}
+	
+	#divtitulo p {
+		font-size: 100%;
+	}
+	.content{
+		width:100% !important;
+	}
+	table {
+		font-family: "Serif" !important;
+		font-size: 75% !important;
+	}
+}
+
+.tablaenco tbody td {
+	padding-left: 10px;
+}
+.tablaenco tfoot tr {
+	margin-top: 5px;
+}

@@ -1,0 +1,162 @@
+#divdatos{
+ margin-top:15px;
+ float:left;
+ width:100%;
+}
+.astitulo{
+  font-size:150%;
+  font-weight:bold;
+  padding-top:15px;
+}
+
+.divpag{
+ 
+ margin:10px;
+ 
+}
+
+#divcuadro{
+  border-style:solid;
+  border-width:thin;
+  float: left;
+  margin-top:10px;
+  width:100%;
+  
+}
+#divtitulo{
+float: left;
+width:100%;
+
+}
+#divtitulo p{
+  font-size:200%;
+  font-weight:bold;
+  text-align:center;
+}
+
+#divtitulo hr{
+ width:100%;
+}
+
+#infoviaje{
+ float:left;
+}
+#tablamanual{display:none;}
+
+.tiquetes {
+	padding-right: 30px;
+}
+
+#tablamanual table caption {font-weight:bold;}
+
+@media print{
+
+	#divdatos{
+		width: 8 in;
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	#controles{
+		display:none;
+	}
+	
+	#encabezado{
+		display:none;
+	}
+	#pie{
+		display:none;
+	}
+	#tablamanual
+		{display:block;}
+		
+	#cuerpo{
+		max-width: 8in !important;
+	}
+	
+	#divcuadro{
+		border-style:none;
+		border-width:thin;
+	}
+	
+	#infoviaje {
+		font-size: 75%;
+	}
+	
+	#divtitulo p {
+		font-size: 100%;
+		display: none;
+	}
+	.content{
+		width:100% !important;
+	}
+	table {
+		font-family: "Serif" !important;
+		font-size: 75% !important;
+	}
+
+	.tiquetes {
+		font-family: "Serif" !important;
+		font-size: 70% !important;
+		padding-right: 200px;
+		padding-left: 10px;
+	}
+	
+	#tablacontenido{
+		font-family: "Serif" !important;
+		font-size: 75% !important;
+	}
+	
+	#tablacontenido caption {
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	
+	.masgrande {
+ 		font-family: "Serif" !important;
+		font-size: 125% !important;
+	}
+	
+	#firmas{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	.divpag{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	
+}
+
+#tablacontenido{
+  border-collapse: collapse;
+  font-family: "Times New Roman", Georgia, Serif;
+ font-size:12pt;
+}
+#tablacontenido td{
+  padding-right: 10px;
+}
+#tablacontenido th{
+  padding-right: 10px;
+}
+
+#tablacontenido caption {
+  font-size:120%;
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.masgrande {
+ font-size:16pt;
+}
+
+.linea_abajo{
+  border-bottom:solid 1px;
+}
+.linea_arriba{
+  border-top:solid 1px;
+}
+
+#tablacontenido tfoot th{
+  font-weight: normal;
+}

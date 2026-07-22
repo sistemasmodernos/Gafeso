@@ -1,0 +1,68 @@
+#divdatos{
+ margin-top:15px;
+ float:left;
+ width:100%;
+ 
+ 
+}
+.astitulo{
+  font-size:150%;
+  font-weight:bold;
+  padding-top:15px;
+  
+}
+
+.divpag{
+ float:left;
+ margin:10px;
+ 
+}
+
+#divcuadro{
+  border-style:solid;
+  border-width:thin;
+  display: inline-block;
+  width:350px;
+  margin-top:10px;
+  margin: auto;
+  padding: 20px;
+  font-weight: bold;
+  
+}
+#divtitulo{
+float: left;
+width:100%;
+
+}
+#divtitulo p{
+  font-size:200%;
+  font-weight:bold;
+  text-align:center;
+}
+
+#divtitulo hr{
+ width:100%;
+}
+
+#infoviaje{
+ float:left;
+}
+#tablamanual{display:none;}
+
+#tablamanual table caption {font-weight:bold;}
+
+@media print{
+table{
+font-size:9 !important;
+}
+#divdatos{
+ width: 8 in;
+ 
+}
+#controles{
+ display:none;
+ 
+}
+#tablamanual
+{display:block;}
+}

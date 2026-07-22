@@ -1,0 +1,97 @@
+#remitente{
+  float:left;
+  border-style:solid;
+  border-width:thin;
+  margin:10px;
+  padding:10px;
+  
+}
+#destinatario{
+  float:left;
+  border-style:solid;
+  border-width:thin;
+  margin:10px;
+  padding:10px;
+  
+}
+
+#factura{
+  float:left;
+  border-style:solid;
+  border-width:thin;
+  margin:10px;
+  padding:10px;
+ 
+}
+
+
+.spinner{
+  width:50px;
+}
+#calendario{
+ margin:10px;
+ 
+}
+#calendario{
+ width:300px;
+ float: right;
+ 
+}
+.calen{
+
+ border-style:solid;
+ border-width:thin;
+ padding:5px;
+ 
+ 
+}
+.calen span{
+  font-weight: bold;
+}
+.cale1{
+  background-color:#d2dadd;
+}
+.cale2{
+  background-color:#a8e7f2;
+  
+}
+
+
+.tablatiq td:first-child{
+  width:150px;
+  
+}
+#cuerpo{
+  float:left;
+  
+}
+#txtnotas{
+  width:300px;
+  vertical-align: top;
+  
+  
+}
+#divnumero{
+  font-size:150%;
+  font-weight: bolder;
+  color:#671629;
+  
+}
+#detalleproductos{
+  margin: 5px;
+  padding: 5px;
+  clear: both;
+  border: thin solid;
+  display: inline-block;
+
+}
+#detalleproductos input{
+  padding-left: 5px;
+}
+
+#datosparafe{
+     background-color: #ccc9c9;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}

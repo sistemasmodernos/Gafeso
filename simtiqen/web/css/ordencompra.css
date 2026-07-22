@@ -1,0 +1,50 @@
+input{
+    padding-left:5px;
+}
+
+#txtidorden{
+    width:75px;
+}
+#txtproveedor{
+    width:350px;
+}
+#txtcorreo{
+    width:250px;
+    }
+#txtcodigo{
+  width:75px;
+}
+#txtcredito{
+  width:50px;
+}
+#txtcantidad{
+    width:70px;
+}
+#txtdescuento{
+    width:100px;
+}
+#txtprecio{
+    width:100px;
+}
+#txtproducto{
+    width:472px;
+}
+#txtimpuesto{
+    width:100px;
+}
+.tdmonto{
+    text-align:right;
+}
+#tablapro {
+    border-collapse:collapse;
+    }
+#tablapro td {
+    padding:2px 5px 2px 5px;
+}
+
+#cuadropro{
+    background-color:antiquewhite;
+    padding:5px;
+    margin-bottom:10px;
+    
+    }

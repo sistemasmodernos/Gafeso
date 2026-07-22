@@ -1,0 +1,83 @@
+.spinner{
+  width:50px;
+}
+#calendario{
+ margin:10px;
+ 
+}
+#calendario{
+ width:210px;
+ float: right;
+ 
+}
+.calen{
+
+ border-style:solid;
+ border-width:thin;
+ padding:5px;
+ 
+ 
+}
+.calen span{
+  font-weight: bold;
+}
+.cale1{
+  background-color:#d2dadd;
+}
+.cale2{
+  background-color:#a8e7f2;
+  
+}
+
+
+.tablatiq td:first-child{
+  width:150px;
+  
+}
+.asientos{
+ border-style: solid;
+ border-width:1px;
+ margin:10px;
+ padding:5px;
+ 
+}
+.asientos td:first-child {
+   width:auto;
+   
+}
+#divnumero{
+  font-size:150%;
+  font-weight: bolder;
+  color:#671629;
+  
+}
+#formabus{
+  float:right;
+  width:200spx;
+  
+}
+
+.tablabus48{
+  width:180;
+  margin:auto;
+}​
+
+.divvuelto{
+  background-color:yellow;
+  display:block;
+  margin:5px;
+  padding:5px;
+  text-align:center;
+}
+
+#spanvuelto{
+  font-size:200%;
+  font-weight:bold;
+}
+
+#txtvuelto{
+  width:100px;
+}
+
+
+

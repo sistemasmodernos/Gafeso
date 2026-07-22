@@ -1,0 +1,59 @@
+.monto{
+  text-align: right;
+}
+
+.titulo1{
+  font-size:200%;
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
+  
+}
+
+table.tablaChofe thead th {
+  border-style: solid;
+  border-width:1px;
+  padding:3px;
+}
+
+#tfoottr {
+  border-style: solid;
+  border-width:2px;
+  padding:3px;
+  background-color: #8BB2FA ;
+
+}
+
+.tot_Chofer {
+  border-style: solid;
+  border-width:2px;
+  padding:3px;
+  background-color: #A8EED0  ;
+
+}
+
+#txtfechai{
+  width:85px;
+  
+}
+#txtfechaf{
+  width:85px;
+
+}
+#txtmonto{
+  width:50px;
+  
+}
+
+@print{
+ #controles{
+   display: none;
+   
+  }
+ #datos{
+   width:8in;
+   
+ }  
+}
+
+}

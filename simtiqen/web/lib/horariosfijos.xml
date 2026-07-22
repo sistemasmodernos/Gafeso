@@ -1,0 +1,102 @@
+<horarios>
+	<ruta id='1' name='buenos aires - san isidro'> 
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>05:15</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>06:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>06:30</viaje>
+		<viaje tipo='2' dia='1,2,3,4,5,6'>07:30</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>08:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>09:00</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>10:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>11:00</viaje>
+		<viaje tipo='2' dia='1,2,3,4,5,6'>12:15</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>13:15</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>14:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>15:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>16:00</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>17:00</viaje>
+   </ruta>
+   <ruta id='2' name='San Isidro - Buenos Aires'>
+		<viaje tipo='2' dia='1,2,3,4,5,6'>05:15</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>06:00</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>07:20</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>08:30</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>10:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>11:30</viaje>
+		<viaje tipo='2' dia='1,2,3,4,5,6'>12:15</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>13:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>14:00</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>15:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>16:00</viaje>
+		<viaje tipo='2' dia='0,1,2,3,4,5,6'>17:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>19:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>19:45</viaje>
+   </ruta>
+
+   <ruta id='3' name='San Isidro - Santa Teresa'>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>11:30</viaje>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>16:30</viaje>	
+		<viaje tipo='1' dia='1,2,3,4,5'>17:30</viaje>
+		<viaje tipo='1' dia='0'>16:00</viaje>
+		<viaje tipo='1' dia='6'>17:00</viaje>
+   </ruta>
+   <ruta id='4' name='Santa Teresa - San Isidro'>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>06:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>13:00</viaje>
+		
+   </ruta>
+   <ruta id='5' name='San Isidro - Cajon'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>07:15</viaje>
+		<viaje tipo='1' dia='0'>08:00</viaje>
+   </ruta>
+   <ruta id='6' name='Cajon - San Isidro'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>08:00</viaje>
+		<viaje tipo='1' dia='0'>09:00</viaje>
+   </ruta>
+   <ruta id='7' name='San Isidro - Las Mercedes'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>11:00</viaje>
+		<viaje tipo='1' dia='0'>17:30</viaje>
+   </ruta>
+   <ruta id='8' name='Las Mercedes - San Isidro'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>12:00</viaje>
+		<viaje tipo='1' dia='0'>05:45</viaje>
+   </ruta>
+
+    <ruta id='9' name='San Isidro-San Francisco'>
+                <viaje tipo='1' dia='1,2,3,4,5,6'>14:00</viaje>
+   </ruta>
+
+
+   <ruta id='10' name=' San Francisco -San Isidro '>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>05:45</viaje>
+   </ruta>
+   <ruta id='11' name='San Isidro - San Pedrito'>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>09:30</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>16:30</viaje>
+		<viaje tipo='1' dia='0'>15:30</viaje>
+   </ruta>
+   <ruta id='12' name='San Pedrito - San Isidro'>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>11:00</viaje>
+		<viaje tipo='1' dia='0,1,2,3,4,5,6'>05:00</viaje>
+   </ruta>
+   <ruta id='13' name='San Isidro - Santa Teresa x San Francisco'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>14:00</viaje>
+   </ruta>
+   <ruta id='14' name='Santa Teresa - San Isidro x San Francisco'>
+		<viaje tipo='1' dia='1,2,3,4,5,6'>15:30</viaje>
+   </ruta>
+
+
+</horarios>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+.monto{
+  text-align: right;
+}
+
+.titulo1{
+  font-size:200%;
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
+  
+}
+
+table.tablad151 thead th {
+  border-style: solid;
+  border-width:1px;
+  padding:3px;
+}
+
+/*
+table.tablad151 tfoot th {
+  border-style: solid;
+  border-width:1px;
+  padding:3px;
+}*/
+
+#tfoottr {
+  border-style: solid;
+  border-width:2px;
+  padding:3px;
+  background-color: lightgray ;
+
+}
+
+
+
+#txtfechai{
+  width:75px;
+  
+}
+#txtfechaf{
+  width:75px;
+  
+}
+
+@print{
+ #controles{
+   display: none;
+   
+  }
+ #datos{
+   width:8in;
+   
+ }  
+}
+
+}

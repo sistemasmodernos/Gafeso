@@ -1,0 +1,6 @@
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\bin\Debug\socketbuses.exe
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\bin\Debug\socketbuses.pdb
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\obj\Debug\ResolveAssemblyReference.cache
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\obj\Debug\socketbuses.exe
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\obj\Debug\socketbuses.pdb
+D:\svnbuses\trunk\simtiqen\socketimpresion\socketbuses\socketbuses\bin\Debug\socketbuses.exe.config

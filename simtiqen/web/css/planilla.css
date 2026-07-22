@@ -1,0 +1,47 @@
+table.boleta
+{ 
+	cellspacing: 1;
+	border-collapse: collapse;
+}
+
+table.boleta td
+{
+border: 1px solid; 
+padding: 3px 7px 2px 7px;
+}
+
+table.boleta td.encas
+{
+	border: 0; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.bolsubtitulo
+{
+	font-size: 150%;
+}
+
+.bolmarca
+{
+	font-size: 125%;
+}
+
+.boltitulo
+{
+	font-size: 200%;
+}
+
+@media print{
+	table{
+		font-size:12 !important;
+	}
+	
+	#divdatos{
+		width: 8 in;
+	}
+	
+	#controles{
+		display:none;
+	}
+}

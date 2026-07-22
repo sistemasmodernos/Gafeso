@@ -1,0 +1,17 @@
+.divruta{border-style:solid;padding:10px;}
+.divviaje{
+float:left;
+padding:1px;
+}
+
+.divinterno{
+height:101px;
+width:70px;
+float:left;
+}
+.placa{
+    position:absolute;
+    margin-top:50px;
+    margin-left:15px;
+    color:rgb(0, 71, 255);
+    }

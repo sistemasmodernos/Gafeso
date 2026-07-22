@@ -1,0 +1,27 @@
+#divanular{
+ float:right;
+ margin:10px;
+ border-style:solid;
+ border-width:thin;
+ border-color:#244c35;
+ padding:10px;
+ text-align: center;
+ 
+ 
+}
+#divanular .mensaje{
+  background-color: #fab50c;
+  border-color: #fc5a00;
+  border-style:solid;
+  width:300px;
+  
+  	
+}
+#tablatiq{
+  border-collapse: collapse;
+}
+#tablatiq td{
+  padding-left:10px;
+  padding-right:5px;
+  
+}

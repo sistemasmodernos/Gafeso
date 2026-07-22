@@ -1,0 +1,49 @@
+# Dependencias
+/vendor/
+composer.phar
+node_modules/
+
+# Configuración local / credenciales
+.env
+.env.*
+!.env.example
+*.local.php
+config.local.php
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+cache/
+*.cache
+
+# Uploads / archivos generados
+uploads/
+*.bak
+*.old
+*.orig
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.sql.gz
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDEs y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.swp
+*.swo
+
+# PHPUnit / herramientas
+.phpunit.result.cache
+.php-cs-fixer.cache
+phpstan.neon.local

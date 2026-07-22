@@ -1,0 +1,199 @@
+.divcolumna{
+    display:inline-block;
+    vertical-align:top;
+  }
+
+#controles{
+ border-style:solid;
+ border-color:#32306f;
+ border-width:1px;
+ margin:15px;
+ padding:10px;
+  width:95%;
+}
+
+#datoscierre{
+ border-style:solid;
+ border-color:#32306f;
+ border-width:1px;
+ margin:15px;
+ padding:10px;
+ width:95%;
+ display:inline-block;
+ 
+}
+
+.fechahora{
+  margin:10px;
+  text-align:right;
+}
+
+@media print{
+
+  body{
+    width: 3in;
+  }
+    
+  .fechahora{
+      text-align:left;
+  }
+
+  .fechahora span{
+      display: block;
+  }
+	#datoscierre{
+		border-style:none;
+		border-width:0px;
+		width:auto;
+		font-family: "Serif" !important;
+		font-size: 90% !important;
+	}
+
+  .header{
+    height: 35px !important;
+  }
+
+  .titulo_2{
+    display: block;
+  }
+	
+	.tablacierre{
+		border-style:none;
+		border-width:0px;
+		width:auto;
+		font-family: "Serif" !important;
+		font-size: 90% !important;
+	}
+	
+	#divcuadro{
+		border-style:none;
+		border-width:0px;
+		width:auto;
+		height:auto;
+		font-family: "Serif" !important;
+		font-size: 90% !important;
+    margin: 15px 0px 15px 0px !important;
+	}
+	
+	#controles{
+		display:none;
+	}
+
+	#cuerpo{
+		max-width: 11in !important;
+	}
+	
+	.content{
+		width:100% !important;
+	}
+
+}
+
+.tablacierre{
+  border-collapse: collapse;
+  margin:5px;
+  padding:0px;  
+  margin-left:5px;
+  
+}
+
+.tablacierre td{
+  padding:2px;
+  
+}
+
+.tablacierre tbody th {
+  text-align: left;
+  padding-left:5px;  
+}
+
+
+.cietitulo1{
+ padding-left:5px !important;
+ font-size:150%;
+ color:#1e165a;
+ 
+ 
+}
+.cietitulo2{
+ padding-left:10px !important;
+ font-size:120%;
+ 
+}
+
+.tablacierre td {
+  text-align: right;
+  
+}
+
+.tablacierre thead tr {
+  background-color:#e6e6fa;
+  font-size:120%;
+  padding:15px;
+  
+}
+.tablacierre tfoot tr {
+  background-color:#e6e6fa;
+  font-size:120%;
+  padding:15px;  
+}
+
+.tablacierre caption{
+ font-weight:bold;
+ font-size:150%;
+ color:#9b0d0d;
+ 
+}
+#txtmontoi{
+  width:90px;
+}
+#txtmontoe{
+  width:90px;
+}
+#diving{
+  float: left;
+  border-left-style: solid;
+  border-left-width:thin;
+  margin:5px;
+  padding:5px;
+  padding-left:15px;
+  
+  
+}
+#divtotal{
+ margin:10px;
+ 
+}
+#divtotal p{
+  font-size:120%;
+  font-weight: bold;
+  
+}
+#divcuadro{
+  border-style:solid;
+  border-width:thin;
+  width:250px;
+  height:100px;
+  margin:15px;
+  
+}
+.botones input{
+  margin:20px;
+  
+}
+#divtitulos{
+  font-size:150%;
+  font-weight: bold;
+  margin-bottom:15px;
+  text-align:center;
+}
+
+@media print {
+ #controles{
+   display: none;
+ }
+ .botones{
+   display: none;
+}
+
+}

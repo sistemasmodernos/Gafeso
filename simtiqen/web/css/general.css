@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0 0 20px;
+    min-height: 100%;
+    font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: 11px;
+}
+table {
+    font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: 11px;
+}   
+
+@media print {
+    
+ body{
+/*    font-family:Serif; */
+   font-family:Serif;
+    font-size:11pt;
+}
+table{
+   font-family:Arial;    
+    font-size:11pt;
+    }   
+    
+}
+
+
+
+.fecha{
+  width:85px;
+  background-color:#f6f7de;
+}
+
+
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1;
+}
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:384px;
+width:408px;
+background:#FFFFFF;
+border:2px solid #cecece;
+z-index:2;
+padding:12px;
+font-size:13px;
+}
+#popupContact h1{
+text-align:left;
+color:#6FA5FD;
+font-size:22px;
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupContactClose{
+font-size:14px;
+line-height:14px;
+right:6px;
+top:4px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+
+.nomusu{
+  float: right;
+  color: blue;
+  margin-right:20px;
+  margin-top:7px;
+  
+  
+}
+
+@media print {
+    
+    
+  #menu{
+     display: none;
+  }
+  .content{
+   width:auto!important;
+   float:left!important;
+  }
+}
+
+@page { size 8.5in 11in; margin: 1cm }
+
+
+.divnavega2{
+width:398px;
+height:275px;
+overflow:scroll;	
+}
+
+.tablenavega{
+  border-collapse:collapse;
+}
+
+.derecha
+{
+	text-align: right;
+}
