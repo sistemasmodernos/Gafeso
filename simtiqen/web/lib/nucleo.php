@@ -1939,6 +1939,12 @@ function ListaCambio($pfechai,$pfechaf){
           return ResultArray($res);
 }
 
+function VentaxTiquete($pfechai,$pfechaf,$pfiltros){
+          $es = new Estadistica();
+          $res=$es->ventaxtiquete($pfechai,$pfechaf,$pfiltros);
+          return ResultArray($res);
+}
+
 /***********************  <<CAMBIAR TIQUETES>>
 Funcionalidad
     Convierte a facturados una serie de tiquetes antes apartados

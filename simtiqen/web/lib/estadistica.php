@@ -296,6 +296,30 @@ function LiquidacionxPeriodo($pfechai,$pfechaf,$pfiltros){
 
 }
 
+  function ventaxtiquete($pfechai,$pfechaf,$pfiltros){
+  $sql = "select r.nombre as ruta,
+  p1.nombre as salida,
+  p2.nombre as llegada,
+  pro.nombre as tiquete,
+  count(*) as cantidad,
+  avg(t.monto) as promedio,
+  sum(t.monto) as total
+  from tiquete t
+  inner join viaje v on v.idviaje=t.idviaje
+  inner join ruta r on r.idruta=v.idruta
+  inner join parada p1 on p1.idparada=t.idparada1
+  inner join parada p2 on p2.idparada=t.idparada2
+  inner join producto pro on pro.idproducto=t.idproducto
+  where t.estado=0
+  and t.fecha between '".$pfechai."' and '".$pfechaf."'
+  ".$pfiltros."
+  group by r.nombre,p1.nombre,p2.nombre,pro.nombre
+  having sum(t.monto)<>0
+  order by r.nombre,p1.nombre,p2.nombre,pro.nombre ";
+
+  $link = new tiqmysql();
+  return $link->bdEjecutar($sql);
+  }
 
 }
 ?>

@@ -128,6 +128,7 @@ function Menu(){
                 <li><a href='ventagralcajero.php'>Venta General por Cajero</a></li>
                 <li><a href='lretiraenco.php'>Encomiendas entregadas</a></li>
                 <li><a href='encoanuladas.php'>Encomiendas anuladas</a></li>
+                <li><a href='ventaxtiquete.php'>Venta por Tiquete</a></li>
             </ul>
         </li>
         <div class='reporte' <a href='#'>OTROS</a></div>
